@@ -4,24 +4,25 @@ using System.Text;
 
 namespace FigureCalc
 {
-    public class Triangle
+    public class Figure
     {
-        public int SideNumber { get; set; }
-        public double SideA { get; set; }
+        public  int Sides { get; set; }
+        public  double SideA { get; set; }
         public double SideB { get; set; }
         public double SideC { get; set; }
 
         public double S { get; set; }
 
 
-        public Triangle(double sides, double a, double b, double c)
+        public Figure(double a, double b, double c)
         {
-            SideNumber = sides;
+            
             SideA = a;
             SideB = b;
             SideC = c;
 
         }
+
     }
 
 }

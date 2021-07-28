@@ -4,9 +4,9 @@ using System.Text;
 
 namespace FigureCalc
 {
-    public struct StTriangle
+    public struct StFigure
     {
-        public double SideNumber { get; set; }
+        public int SideNumber { get; set; }
         public double SideA { get; set; }
         public double SideB { get; set; }
         public double SideC { get; set; }
@@ -14,9 +14,9 @@ namespace FigureCalc
         public double S { get; set; }
 
 
-        public StTriangle(double sides, double a, double b, double c) : this()
+        public StFigure(double a, double b, double c) : this()
         {
-            SideNumber = sides;
+           
             SideA = a;
             SideB = b;
             SideC = c;
